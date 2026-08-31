@@ -14064,6 +14064,9 @@
       "Config.ProviderEncoded": {
         "type": "object",
         "properties": {
+          "canonical": {
+            "type": "string"
+          },
           "name": {
             "type": "string"
           },
@@ -15978,6 +15981,9 @@
           "providerID": {
             "type": "string"
           },
+          "canonical": {
+            "type": "string"
+          },
           "family": {
             "type": "string"
           },
@@ -16913,6 +16919,9 @@
         "type": "object",
         "properties": {
           "id": {
+            "type": "string"
+          },
+          "canonical": {
             "type": "string"
           },
           "integrationID": {
